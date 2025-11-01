@@ -1,0 +1,30 @@
+/*
+     = descendant (space)
+     > = child
+     ~ = general sibling
+     + = adjacent sibling
+*/
+
+#container {
+    border: 2px solid;
+}
+
+/*     every p in this container */
+/* #container p {
+    background-color: rgb(243, 243, 108);
+} */
+
+/* children p of container (the 3 one is in another div and isnt highlited */
+/* #container > p {
+    background-color: rgb(243, 243, 108);
+} */
+
+/* all p siblings to container */
+/* #container ~ p {
+    background-color: rgb(243, 243, 108);
+} */
+
+/* next to right sibling*/
+#container + p {
+    background-color: rgb(243, 243, 108);
+}

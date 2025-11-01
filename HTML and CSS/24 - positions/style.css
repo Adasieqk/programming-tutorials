@@ -1,0 +1,24 @@
+/* 
+static = default position for an element 
+relative = positioned relative to where it normally should be - top, bottom, left, right
+fixed = positioned relative to the viewport / stays at the same place on screen - top, bottom, left, right
+absolute = positioned relative to the nearest ancestor
+sticky = positioned based on scroll position - stays as fixed until u scroll past it
+*/
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: sticky;
+    top: 0px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: static;
+    top: 50px;
+    left: 50px;
+}

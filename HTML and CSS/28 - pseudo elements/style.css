@@ -1,0 +1,41 @@
+/* pseudo-element = keyword added after selector thats used to style specific parts of an element
+
+selector::pseudo-element
+*/
+
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: rgb(250, 250, 111);
+}
+
+/* selected with mouse */
+p::selection {
+    color: white;
+    background-color: rgb(55, 55, 55);
+    color: green;
+}
+
+#fruit li::before {
+    content: "✅";
+}
+
+#apple::after {
+    content: "🍎";
+}
+
+#orange::after {
+    content: "🍊";
+}
+
+#banana::after {
+    content: "🍌";
+}
+
+#fruit li::marker {
+    content: "🌚";
+    font-size: 1.2em;
+}

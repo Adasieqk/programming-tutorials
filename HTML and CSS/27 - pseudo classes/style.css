@@ -1,0 +1,49 @@
+/*
+:link - not visited
+:visited 
+:hover
+:active - the moment the link is clicked 
+:not(:hover) - not hovered
+:nth-child(n) - nth number of element, can be:  even, odd, 3n, 4n+1 (start from 1 and go up 4)
+*/
+
+/* a:link {
+    color: red;
+}
+
+a:hover {
+    color: tomato;
+    font-size: 1.1em;
+}
+
+a:active {
+    font-size: 1.1em;
+    color: rgb(54, 255, 14);
+}
+
+a:visited {
+    color: gray;
+} */
+
+/* li:hover {
+    background-color: rgb(255, 255, 105);
+}
+
+li:not(:hover) {
+    background-color: rgb(181, 181, 181);
+} */
+
+/* li:nth-child(3) {
+
+    background-color: rgb(255, 255, 116);
+} */
+
+#greeting p {
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p {
+    display: block;
+}

@@ -1,0 +1,22 @@
+/* block-level   =    start on a new line, take up the full available width (h1, div, p, form, header, footer)
+inline   =    do not start on new line, width limited to what is needed (span, a, img) */
+
+/* display:
+block - like a normal div u can set width height
+inline - like span, takes only necessary space
+inline-block - in one line, and as a block (can set width height)
+none - doesnt display but is still there */
+
+div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: none;
+    visibility: hidden;
+}
+span {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block; /* block can set width and height for span*/
+}

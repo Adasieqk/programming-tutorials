@@ -1,0 +1,21 @@
+body {
+    border: 3px solid;
+    display: flow-root;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+}
+
+#box1 {
+    background-color: red;
+    float: right;
+    margin-left: 30px;
+}
+
+#box2 {
+    background-color: cyan;
+    float: left;
+    margin-right: 20px;
+}

@@ -1,0 +1,60 @@
+/*
+semantic tags = keeps yout content organised
+better SEO
+Asissts screen readers and other tech accessibility
+
+header, nav, main, section (dependent content), aside (side content), article (independent content), footer
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar {
+    background-color: rgb(43, 43, 43);
+    height: 50px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section {
+    padding: 10px;
+    width: 40%;
+    float: left;
+}
+
+article {
+    padding: 10px;
+    width: 40%;
+    float: left;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    aside,
+    section,
+    article {
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+/*
+
+transform:   - can apply to id and class, and other elements
+- translateX, translateY, translate
+- rotateX, rotateY, rotateZ - rotateX(180deg) 
+- scaleX, scaleY (1 = 100%), scale(x, y)  - makes things fat
+- skewX, skewY, skew(x, y) - skews things
+
+*/
+
+body {
+    margin: 0;
+}
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: greenyellow;
+
+    transform: translateX(100%) rotateZ(90deg) scale(0.5);
+}

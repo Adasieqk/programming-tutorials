@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form action="POST" enctype="multipart/form-data">
+            <label for="password">Enter password:</label>
+            <input
+                type="password"
+                name="password"
+                id="password"
+                minlength="6"
+                maxlength="16"
+                required
+            />
+            <br />
+            <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="123456789"
+                pattern="[0-9]{9}"
+            />
+            <br />
+            <label for="op1">Option 1</label>
+            <input type="radio" name="1" id="op1" /><br />
+            <label for="op2">Option 2</label>
+            <input type="radio" name="1" id="" /><br />
+
+            <label for="payment">Payment: </label>
+            <select name="" id="payment">
+                <option value="v">Visa</option>
+                <option value="m">Mastercard</option>
+            </select>
+            <br />
+
+            <label for="checkbox">Check: </label>
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <br />
+
+            <label for="file">Send image: </label>
+            <input
+                type="file"
+                name=""
+                id="file"
+                accept="image/png, image/jpeg"
+            />
+            <br />
+
+            <textarea
+                name="textarea"
+                id="textarea"
+                cols="30"
+                rows="10"
+            ></textarea>
+            <br />
+
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>

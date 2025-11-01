@@ -1,0 +1,34 @@
+/*
+auto - default
+50%
+max-width: 25%;
+min-width: 75%;
+
+height:
+vh - viewport height
+
+
+width: 
+vw - viewport iwdth
+
+*/
+
+* {
+    box-sizing: border-box; /* without padding and borders*/
+}
+
+.box {
+    background-color: antiquewhite;
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    min-height: 50%;
+}
+
+.container {
+    background-color: lightgray;
+    height: 100vh;
+}

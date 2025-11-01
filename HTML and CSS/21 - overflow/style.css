@@ -1,0 +1,15 @@
+/* overflow: 
+visible (default), 
+hidden, 
+clip, 
+scroll (scrollbar - visible even if u dont need scrollbar), 
+auto (hides scrollbar on an axis if not needed)
+*/
+
+div {
+    border: 2px solid;
+    height: 75px;
+    /* overflow: clip;
+    overflow-clip-margin: 7px; */
+    overflow: auto;
+}
