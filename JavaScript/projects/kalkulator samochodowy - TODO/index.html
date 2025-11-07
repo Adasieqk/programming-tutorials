@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Kalkulator</title>
+    </head>
+    <body>
+        <div id="calosc">
+            <div id="tytul">
+                <h1>Kalkulator samochodowy czy jakiś tam</h1>
+                <p>
+                    Liczby niecałkowite podawaj z użyciem
+                    <strong>kropki (.)</strong>
+                </p>
+            </div>
+
+            <div id="wpisyiobliczenia">
+                <div>
+                    <h3>Bez instalacji</h3>
+
+                    <label for="cenabenz">Cena benzyny</label>
+                    <input
+                        type="text"
+                        id="cenabenz"
+                        name="cenabenz"
+                        placeholder="6"
+                    />
+                    <br />
+
+                    <label for="cenagazu">Cena LPG</label>
+                    <input
+                        type="text"
+                        name="cenagazu"
+                        id="cenagazu"
+                        placeholder="3"
+                    />
+                    <br />
+
+                    <label for="spalanie">Spalanie benzyny na 100km</label>
+                    <input
+                        type="text"
+                        name="spalanie"
+                        id="spalanie"
+                        placeholder="8"
+                    />
+                    <br />
+
+                    <label for="kmnamies">Ile kilometrów miesięcznie</label>
+                    <input
+                        type="text"
+                        name="kmnamies"
+                        id="kmnamies"
+                        placeholder="1000"
+                    />
+                    <br />
+                </div>
+                <div>
+                    <h3>Z instalacją</h3>
+
+                    <label for=""
+                        >Spalanie gazu na 100km z założoną instalacją</label
+                    >
+                    <input
+                        type="text"
+                        name="spalgazuinst"
+                        id="spalgazu"
+                        placeholder="9.5"
+                    />
+                    <br />
+
+                    <label for=""
+                        >Spalanie benzyny na 100km z założoną instalacją</label
+                    >
+                    <input
+                        type="text"
+                        name="spalbenzinst"
+                        id="spalbenz"
+                        placeholder="0.5"
+                    />
+                    <br />
+
+                    <label for="cenainst">Cena instalacji</label>
+                    <input
+                        type="text"
+                        name="cenainst"
+                        id="cenainst"
+                        placeholder="5500"
+                    />
+                    <br />
+
+                    <label for="cenainst"
+                        >Sprawdź oszczędność po X latach</label
+                    >
+                    <input
+                        type="text"
+                        name="ilelat"
+                        id="ilelat"
+                        placeholder="5"
+                    />
+                    <br />
+                    <br />
+                </div>
+                <div>
+                    <button type="submit" id="przycisk">Oblicz</button>
+                    <br />
+                    <br />
+                </div>
+                <div>
+                    <h2>Wyliczenia</h2>
+
+                    <h3>Oszczędność miesięczna</h3>
+                    <p id="htmlOszczednoscMiesieczna"></p>
+
+                    <h3>Oszczędność roczna</h3>
+                    <p id="htmlOszczednoscRoczna"></p>
+
+                    <h3>Po ilu miesiącach zaoszczędzisz na koszt instalacji</h3>
+                    <p id="htmlPoIluMiesiacachZaoszczedziszNaInstalacje"></p>
+
+                    <h3>Po x latach zaoszczędzisz</h3>
+                    <p id="htmlPoXLatachZaoszczedzisz"></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
