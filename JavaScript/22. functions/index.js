@@ -6,7 +6,7 @@
 //     console.log(`You are ${age} years old`);
 // }
 
-// happyBirthday("Adam", 15);
+// happyBirthday("name", 15);
 // happyBirthday("Spongebob", 30);
 
 
@@ -69,14 +69,7 @@
 
 function isValidEmail(email) {
 
-    // if (email.includes("@")) {
-    //     return true;
-    // }
-    // else {
-    //     return false;
-    // }
-
-    return email.includes("@") ? true : false;
+    return email.includes("@");
 }
 
 console.log(isValidEmail("name@gmail.com"));
